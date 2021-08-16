@@ -1,0 +1,97 @@
+body {
+    font-family: 'Georama', sans-serif;
+    background-color: gold;
+}
+
+#container {
+    display: flex;
+    margin: auto;
+    min-height: 750px;
+    max-height: auto;
+    width: 500px;
+    margin-top: 80px;
+    border: 3px solid black;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 3px;
+    background-color: #4b4f4c;
+}
+#calculatorLayout {
+    width: 400px;
+    height: minmax(100px, auto);
+    margin-top: 70px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #8abf94;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: right;
+}
+#body {
+    display: flex;
+    height: fit-content;
+    width: 400px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.button {
+    height: 85px;
+    width: 85px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 2px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    background: darkgray;
+    transform: scale(1.07);
+}
+.resizeSize {
+    font-size: 50px;
+}
+#clear {
+    width: 190px;
+    margin-bottom: 10px;
+}
+#delete {
+    width: 190px;
+    margin-bottom: 10px;
+}
+#result {
+    display: flex;
+    min-height: 50px;
+    max-height: auto;
+    width: inherit;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+#formulaBuild {
+    display: flex;
+    min-height: 50px;
+    max-height: auto;
+    font-size: 30px;
+    width: inherit;
+    justify-content: flex-end;
+}
+#smallScreen {
+    margin: 0;
+    min-height: 1em;
+    max-height: auto;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+#showResult {
+    font-size: 40px;
+    min-height: 1em;
+    max-height: auto;
+    margin: 0;
+    margin-right: 30px;
+}
